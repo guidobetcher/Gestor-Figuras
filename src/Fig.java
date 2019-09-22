@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
-
-public class Fig {
+public abstract class Fig {
+	public abstract double area();
 }
+
