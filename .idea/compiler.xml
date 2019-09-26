@@ -9,8 +9,8 @@
         <module name="Gestor-Figuras" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Gestor-Figuras" target="1.5" />
+    <bytecodeTargetLevel target="8">
+      <module name="Gestor-Figuras" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
