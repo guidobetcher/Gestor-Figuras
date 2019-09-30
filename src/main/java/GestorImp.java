@@ -15,11 +15,15 @@ public class GestorImp implements Gestor {
         l[0] = new Cuadrado(5);
         l[1] = new Triangulo(2,3);
         l[2] = new Circulo(1);
-        l[3] = new Rectangulo(1,2);
+        l[3] = new Rectangulo(100,200);
 
         System.out.println(l[0].area());
-        GestorImp g = new GestorImp();
-        System.out.println("suma"+g.suma(l));
+        Gestor g = new GestorImp();
+        System.out.println("suma "+g.suma(l));
+
+        g.sort(l);
+
+        System.out.println(Arrays.asList(l));
     }
 
 
